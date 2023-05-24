@@ -1,0 +1,61 @@
+.styles {
+  box-sizing: border-box;
+  background: transparent;
+  display: flex;
+  padding: 30px 15px 30px 9px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  z-index: 1;
+}
+
+.styles a{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.nav {
+  height: fit-content;
+  background: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  outline: none;
+  border: none;
+  z-index: 1;
+}
+
+.sideMenu {
+  position: absolute;
+  background: #dfe4e3 url('https://www.sleep-token.com/wp-content/themes/sleeptoken4/img/light-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.sideMenu a {
+  color: black;
+  text-decoration: none;
+  margin: 9.5px;
+}
+
+.sideMenu a:hover {
+  text-decoration: underline;
+}

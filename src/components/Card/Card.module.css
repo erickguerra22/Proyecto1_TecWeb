@@ -1,0 +1,159 @@
+.styles {
+  background: rgba(12, 13, 13, 0.03)
+}
+
+.element {
+  background: rgba(12, 13, 13, 0.08);
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+.showMenu {
+  background: rgba(12, 13, 13, 0.15);
+}
+
+.element:hover {
+  background: rgba(12, 13, 13, 0.15);
+}
+
+.element button {
+  background: #DCDDD9;
+}
+
+.element button:hover {
+  background: #E3E3E1;
+}
+
+.styles,
+.element {
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: start;
+  color: #393937;
+  position: relative;
+}
+
+.styles a,
+.styles button {
+  margin: 0;
+  padding: 0;
+}
+
+.styles button {
+  background: #ECEEEC;
+}
+
+.styles button,
+.element button {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 0;
+  width: 200px;
+  border: 2px solid #A5A8A7;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  margin: 0;
+}
+
+.styles button:hover {
+  background: #F7F8F8;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.icon {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.actions button {
+  width: fit-content;
+  padding: 5px;
+  margin: 0;
+  border-color: #a5a8a7d0;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.actions img {
+  width: 19px;
+  filter: opacity(70%);
+}
+
+.info p,
+.info h3 {
+  text-align: start;
+  margin: 5px;
+  padding: 0;
+  margin-right: 0;
+}
+
+.info p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.info h3 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.shareMenu {
+  display: flex;
+  background: white;
+  position: absolute;
+  gap: 40px;
+  padding: 2px 27px;
+  right: 16px;
+  top: 27px;
+  border-radius: 5px;
+}
+
+.shareMenu button {
+  background: none;
+  width: fit-content;
+  border: none;
+}
+
+.shareMenu button:hover {
+  background-color: transparent;
+}
+
+.shareMenu button img {
+  width: 9px;
+}
+
+.shareMenu img {
+  width: 15px;
+}
+
+.shareMenu a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}

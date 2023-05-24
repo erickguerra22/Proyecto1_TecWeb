@@ -1,0 +1,67 @@
+.styles {
+  position: fixed;
+  background: #dfe4e3 url('https://www.sleep-token.com/wp-content/themes/sleeptoken4/img/light-bg.jpg') !important;
+  top: 0;
+  left: 0;
+  gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 27px 450px;
+  box-sizing: border-box;
+}
+
+.styles label,
+.styles input,
+.styles button,
+.styles h2,
+.styles select {
+  width: 100%;
+}
+
+.styles h2 {
+  text-align: start;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.styles input,
+.styles select {
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 0 1px #CED4DA;
+  box-sizing: border-box;
+  background: #DFE4E3;
+  padding: 10px 13px;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.styles input:focus,
+.styles select:focus {
+  background: white;
+  box-shadow: inset 0 0 0 1px black;
+}
+
+.styles label {
+  margin: 0;
+  margin-left: -1;
+  font-size: 12px;
+}
+
+.styles button {
+  font-size: 20px;
+}
+
+.styles select {
+  color: #6C757D;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,156 @@
+.styles {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  width: 70%;
+}
+
+.section header a {
+  height: fit-content;
+  padding: 0;
+}
+
+.section header p {
+  margin: 0;
+}
+
+.section header a img {
+  margin: 0;
+  padding: 0;
+}
+
+.newAlbum,
+.section,
+.footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.section h2 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.section button {
+  font-size: 20.5px;
+  margin-top: 70px;
+  padding: 8px 15px;
+}
+
+.newAlbum h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.newAlbum h1 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2.2px;
+  margin-top: 0.43em;
+  margin-bottom: 0.4em;
+}
+
+.styles .link {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  margin-top: 3px;
+  margin-bottom: 14px;
+}
+
+.video {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 140px;
+}
+
+.youtube {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.youtube h3 {
+  font-size: 11.5px;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.footer button {
+  margin: 30px 0;
+  font-size: 13px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.socialMedia img {
+  height: 20px;
+}
+
+.externalLinks {
+  display: flex;
+  font-size: 11.5px;
+  gap: 10px;
+  margin: 30px;
+}
+
+.externalLinks a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 11.5px;
+}
+
+.footer p {
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.footer {
+  padding-bottom: 35px;
+}

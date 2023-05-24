@@ -1,0 +1,29 @@
+#root {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-image: url('https://www.sleep-token.com/wp-content/themes/sleeptoken4/img/light-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+button {
+  text-align: center;
+}

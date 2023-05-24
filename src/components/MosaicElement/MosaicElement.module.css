@@ -1,0 +1,39 @@
+.styles {
+  box-sizing: border-box;
+  margin: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.styles figure {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all ease 1s;
+}
+
+.styles figure:hover {
+  padding: 13px;
+}
+
+.styles img {
+  width: 100%;
+}
+
+.styles h3 {
+  margin-top: 0px;
+  font-size: 10.5px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.styles p {
+  margin: 0.5px;
+  font-size: 11.5px;
+}
