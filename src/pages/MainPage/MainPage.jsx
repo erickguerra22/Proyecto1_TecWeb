@@ -1,15 +1,15 @@
 /* eslint-disable max-len */
 import React, { useState } from 'react'
 import mainPage from './MainPage.module.css'
-import NavBar from '../NavBar'
-import Button from '../Button/Button'
-import Mosaic from '../Mosaic'
-import Video from '../Video/Video'
+import NavBar from '../../components/NavBar'
+import Button from '../../components/Button/Button'
+import Mosaic from '../../components/Mosaic'
+import Video from '../../components/Video/Video'
 import {
   bundles, music, merchandise, tours,
 } from '../../data/data'
-import CardList from '../CardList/CardList'
-import Form from '../Form/Form'
+import CardList from '../../components/CardList/CardList'
+import Form from '../../components/Form/Form'
 
 const MainPage = () => {
   const [hideForm, setHideForm] = useState(true)
@@ -106,7 +106,7 @@ const MainPage = () => {
         <header>
           <p>SLEEP TOKEN tour dates</p>
           <a href="https://www.songkick.com/en/?utm_source=widget&utm_campaign=referral&utm_medium=9425279">
-            <img width={70} src="/songkick.svg" alt="songkick" />
+            <img width={70} src="/21781/proyecto1/songkick.svg" alt="songkick" />
           </a>
         </header>
         <CardList elements={tours} />
@@ -116,22 +116,22 @@ const MainPage = () => {
         <Button text="NEWSLETTER SIGN UP" onClick={handleFormHidden} />
         <div className={mainPage.socialMedia}>
           <a href="https://www.facebook.com/sleeptoken/">
-            <img src="/facebook_fill.svg" />
+            <img src="/21781/proyecto1/facebook_fill.svg" />
           </a>
           <a href="https://www.instagram.com/sleep_token">
-            <img src="/instagram.svg" />
+            <img src="/21781/proyecto1/instagram.svg" />
           </a>
           <a href="https://open.spotify.com/artist/2n2RSaZqBuUUukhbLlpnE6">
-            <img src="/spotify.svg" />
+            <img src="/21781/proyecto1/spotify.svg" />
           </a>
           <a href="https://twitter.com/Sleep_Token">
-            <img src="/twitter_fill.svg" />
+            <img src="/21781/proyecto1/twitter_fill.svg" />
           </a>
           <a href="https://www.youtube.com/channel/UC-FsT1b7rc-mKVOjikjw5jg">
-            <img src="/youtube.svg" />
+            <img src="/21781/proyecto1/youtube.svg" />
           </a>
           <a href="https://music.apple.com/us/artist/sleep-token/1153723033">
-            <img src="/apple-music.svg" />
+            <img src="/21781/proyecto1/apple-music.svg" />
           </a>
         </div>
         <div className={mainPage.externalLinks}>

@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://uvgenios.online/21781/Proyecto1/',
+  base: 'https://uvgenios.online/21781/proyecto1/',
   server: {
     host: '0.0.0.0',
     port: '3000',
@@ -16,6 +16,10 @@ export default defineConfig({
       {
         find: '@components',
         replacement: resolve(__dirname, './src/components'),
+      },
+      {
+        find: '@pages',
+        replacement: resolve(__dirname, './src/pages'),
       },
     ],
   },

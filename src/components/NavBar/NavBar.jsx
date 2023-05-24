@@ -21,11 +21,11 @@ const NavBar = () => {
       <button className={navBar.nav} type="button" onClick={hideMenu}>
         <Hamburger isActive={showMenu} />
       </button>
-      <a className={navBar.nav} href="/">
+      <a className={navBar.nav} href="/21781/proyecto1">
         <img height={40} src="https://www.sleep-token.com/wp-content/uploads/sites/15/2023/01/sleep-token-logo.png" alt="sleep-token" />
       </a>
       <a className={navBar.nav} href="https://www.sleep-token.com/basket/" style={{ width: '36px', justifyContent: 'flex-end' }}>
-        <img src="/shop.svg" alt="shop" height={26} />
+        <img src="/21781/proyecto1/shop.svg" alt="shop" height={26} />
       </a>
       <div className={navBar.sideMenu} style={{ display: `${showMenu ? 'flex' : 'none'}` }}>
         <a href="https://www.sleep-token.com/product-category/tmbte/">TMBTE PRE-ORDERS</a>

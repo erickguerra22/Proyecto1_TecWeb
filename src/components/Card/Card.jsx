@@ -40,7 +40,7 @@ const Card = ({
   }
 
   return (
-    <a onClick={handleLink} className={menuVisible ? `${card.element} ${card.showMenu}` : card.element}>
+    <div onClick={handleLink} className={menuVisible ? `${card.element} ${card.showMenu}` : card.element}>
       <div className={card.info}>
         <div style={{ display: 'flex' }}>
           <p>{date}</p>
@@ -53,33 +53,33 @@ const Card = ({
         <a href={link}><button type="button">Tickets</button></a>
         <div className={card.actions}>
           <button type="button" onClick={showMenu}>
-            <img src="/share.svg" />
+            <img src="/21781/proyecto1/share.svg" />
           </button>
           <a href={save}>
             <button type="button">
-              <img src="/save.svg" />
+              <img src="/21781/proyecto1/save.svg" />
             </button>
           </a>
         </div>
       </div>
       <div className={card.shareMenu} style={{ display: `${menuVisible ? 'flex' : 'none'}` }}>
         <a onClick={copyLink}>
-          <img src={copyText ? '/copied.svg' : '/link.svg'} />
+          <img src={copyText ? '/21781/proyecto1/copied.svg' : '/21781/proyecto1/link.svg'} />
           <p>Copy link</p>
         </a>
         <a href={facebook}>
-          <img src="/facebook.svg" />
+          <img src="/21781/proyecto1/facebook.svg" />
           <p>Facebook</p>
         </a>
         <a href={twitter}>
-          <img src="/twitter.svg" />
+          <img src="/21781/proyecto1/twitter.svg" />
           <p>Twitter</p>
         </a>
         <button type="button" onClick={showMenu}>
-          <img src="/close.svg" />
+          <img src="/21781/proyecto1/close.svg" />
         </button>
       </div>
-    </a>
+    </div>
   )
 }
 
