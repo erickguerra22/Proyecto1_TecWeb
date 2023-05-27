@@ -14,8 +14,7 @@ const Template = (args) => (
   </div>
 )
 
-export const AsPlayer = Template.bind({})
-AsPlayer.args = {
-  src: '/images/characters/millenium-falcon.png',
-  player: true,
+export const AsActive = Template.bind({})
+AsActive.args = {
+  isActive: true,
 }

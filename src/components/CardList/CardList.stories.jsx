@@ -14,8 +14,24 @@ const Template = (args) => (
   </div>
 )
 
-export const AsPlayer = Template.bind({})
-AsPlayer.args = {
-  src: '/images/characters/millenium-falcon.png',
-  player: true,
+export const AsList = Template.bind({})
+AsList.args = {
+  elements: [
+    {
+      header: true,
+      icon: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+      text: 'Prueba',
+      button: 'Prueba',
+    },
+    {
+      event: 'Prueba',
+      location: 'Prueba',
+      link: 'https://google.com',
+    },
+    {
+      footer: true,
+      text: 'Prueba',
+      button: 'Prueba',
+    },
+  ],
 }

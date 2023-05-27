@@ -14,8 +14,43 @@ const Template = (args) => (
   </div>
 )
 
-export const AsPlayer = Template.bind({})
-AsPlayer.args = {
-  src: '/images/characters/millenium-falcon.png',
-  player: true,
+export const AsTest = Template.bind({})
+AsTest.args = {
+  elements: [
+    {
+      link: 'google.com',
+      image: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+      title: 'Prueba',
+      price: 50,
+      columns: 3,
+    },
+    {
+      link: 'google.com',
+      image: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+      title: 'Prueba',
+      price: 50,
+      columns: 3,
+    },
+    {
+      link: 'google.com',
+      image: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+      title: 'Prueba',
+      price: 50,
+      columns: 3,
+    },
+    {
+      link: 'google.com',
+      image: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+      title: 'Prueba',
+      price: 50,
+      columns: 3,
+    },
+    {
+      link: 'google.com',
+      image: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+      title: 'Prueba',
+      price: 50,
+      columns: 4,
+    },
+  ],
 }

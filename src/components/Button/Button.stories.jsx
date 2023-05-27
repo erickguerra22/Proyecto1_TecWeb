@@ -6,6 +6,10 @@ export default {
   title: 'Sprites/Button',
   component: Button,
   tags: ['autodocs'],
+  arts: {
+    type: 'button',
+    filled: false,
+  },
 }
 
 const Template = (args) => (
@@ -14,8 +18,16 @@ const Template = (args) => (
   </div>
 )
 
-export const AsPlayer = Template.bind({})
-AsPlayer.args = {
-  src: '/images/characters/millenium-falcon.png',
-  player: true,
+export const AsFilled = Template.bind({})
+AsFilled.args = {
+  filled: true,
+  text: 'filled',
+  fontSize: '30px',
+}
+
+export const AsLink = Template.bind({})
+AsLink.args = {
+  text: 'Link',
+  link: 'google.com',
+  fontSize: '30px',
 }

@@ -30,10 +30,6 @@ const CardList = ({ elements }) => (
   </div>
 )
 
-CardList.defaultProps = {
-
-}
-
 CardList.propTypes = {
   elements: PropTypes.arrayOf(PropTypes.objectOf(any)).isRequired,
 }

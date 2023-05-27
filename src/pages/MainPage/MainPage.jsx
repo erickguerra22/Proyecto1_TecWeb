@@ -44,7 +44,7 @@ const MainPage = () => {
         <h3>THE NEW ALBUM</h3>
         <h1>TAKE ME BACK TO EDEN</h1>
         <h3>OUT NOW</h3>
-        <Button text="BUY NOW" filled link="https://www.sleep-token.com/Sleep%20Token/section/" />
+        <Button text="BUY NOW" filled link="https://www.sleep-token.com/Sleep%20Token/shop/" />
         <div>
           <a href="https://www.sleep-token.com/wp-content/themes/sleeptoken4/img/spotify.png">
             <img
@@ -65,8 +65,8 @@ const MainPage = () => {
         </div>
         <a className={mainPage.link} href="https://sleeptoken.lnk.to/TakeMeBackToEden">Stream on all major platforms.</a>
         <div>
-          <Button text="UK / EU STORE" fontSize="13.5px" link="https://www.sleep-token.com/Sleep%20Token/section/" />
-          <Button text="US STORE" fontSize="13.5px" link="https://www.sleep-token.com/Sleep%20Token/section/" />
+          <Button text="UK / EU STORE" fontSize="13.5px" link="https://www.sleep-token.com/Sleep%20Token/shop/" />
+          <Button text="US STORE" fontSize="13.5px" link="https://www.sleep-token.com/Sleep%20Token/shop/" />
           <Button text="AU STORE" fontSize="13.5px" link="https://24hundred.net/collections/sleep-token" />
           <Button text="LABEL STORE" fontSize="13.5px" link="https://sleeptoken.tmstor.es/" />
           <Button text="IMPERICON" fontSize="13.5px" link="https://imperi.cn/sleep-token-imp" />
@@ -82,14 +82,14 @@ const MainPage = () => {
           src="https://www.sleep-token.com/wp-content/themes/sleeptoken4/img/tmbte-glyphs.png"
           style={{ marginRight: '150px' }}
         />
-        <a href="https://www.sleep-token.com/section/">
+        <a href="https://www.sleep-token.com/shop/">
           <img width="340px" src="https://www.sleep-token.com/wp-content/themes/sleeptoken4/img/tmbte-subject.png" />
         </a>
         <div className={mainPage.youtube}>
           <h3>TAKE ME BACK TO EDEN</h3>
           <h1>TMBTE</h1>
           <Video src="https://www.youtube.com/embed/vFHBOKa_ZG0" />
-          <Button text="BUY / LISTEN NOW" filled />
+          <Button text="BUY / LISTEN NOW" filled link="https://sleeptoken.lnk.to/TakeMeBackToEden" />
         </div>
       </div>
       <div className={mainPage.section}>

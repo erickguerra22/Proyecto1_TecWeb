@@ -14,8 +14,7 @@ const Template = (args) => (
   </div>
 )
 
-export const AsPlayer = Template.bind({})
-AsPlayer.args = {
-  src: '/images/characters/millenium-falcon.png',
-  player: true,
+export const AsVideo = Template.bind({})
+AsVideo.args = {
+  src: 'https://www.youtube.com/embed/o-GU_fmvZ3c',
 }

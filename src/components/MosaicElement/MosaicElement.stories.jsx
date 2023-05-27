@@ -6,6 +6,11 @@ export default {
   title: 'Sprites/MosaicElement',
   component: MosaicElement,
   tags: ['autodocs'],
+  args: {
+    discount: false,
+    soldOut: false,
+    gridColumn: undefined,
+  },
 }
 
 const Template = (args) => (
@@ -14,8 +19,11 @@ const Template = (args) => (
   </div>
 )
 
-export const AsPlayer = Template.bind({})
-AsPlayer.args = {
-  src: '/images/characters/millenium-falcon.png',
-  player: true,
+export const AsElement = Template.bind({})
+AsElement.args = {
+  link: 'google.com',
+  image: 'https://cdn.mos.cms.futurecdn.net/cPcRJtqoDjXRchP5HKETZE.jpg',
+  title: 'Prueba',
+  price: 50,
+  columns: 3,
 }
